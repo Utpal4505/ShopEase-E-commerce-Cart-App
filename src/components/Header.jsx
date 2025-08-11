@@ -93,7 +93,7 @@ function Header() {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-search absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#94a3b8] transition-colors group-focus-within:text-[#9767e4]"
+                    className="lucide lucide-search absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#94a3b8] transition-colors group-focus-within:text-[#9767e4]"
                   >
                     <circle cx="11" cy="11" r="8"></circle>
                     <path d="m21 21-4.3-4.3"></path>
@@ -109,7 +109,7 @@ function Header() {
               {/* // --------------- Routings Files Right --------------- */}
               <div className="flex items-center space-x-2">
                 <button
-                  class="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-[#11161d] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#B177D9] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-[#253547] hover:text-[#f8fafc] h-9 rounded-md px-3 relative group"
+                  className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-[#11161d] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#B177D9] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-[#253547] hover:text-[#f8fafc] h-9 rounded-md px-3 relative group"
                   type="button"
                   id="radix-:r0:"
                   aria-haspopup="menu"
@@ -126,7 +126,7 @@ function Header() {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-sun h-5 w-5 transition-transform duration-200 group-hover:scale-110"
+                    className="lucide lucide-sun h-5 w-5 transition-transform duration-200 group-hover:scale-110"
                   >
                     <circle cx="12" cy="12" r="4"></circle>
                     <path d="M12 2v2"></path>
@@ -163,7 +163,7 @@ function Header() {
                 </NavLink>
 
                 <button
-                  class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-[#11161d] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#B177D9] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-[#253547] hover:text-[#f8fafc] h-9 rounded-md px-3 gap-1 group transition-all duration-200 hover:scale-105"
+                  className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-[#11161d] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#B177D9] focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-[#253547] hover:text-[#f8fafc] h-9 rounded-md px-3 gap-1 group transition-all duration-200 hover:scale-105"
                   type="button"
                   id="radix-:r2:"
                   aria-haspopup="menu"
@@ -180,7 +180,7 @@ function Header() {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-user h-5 w-5"
+                    className="lucide lucide-user h-5 w-5"
                   >
                     <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
                     <circle cx="12" cy="7" r="4"></circle>
@@ -195,7 +195,7 @@ function Header() {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-chevron-down h-3 w-3 transition-transform group-data-[state=open]:rotate-180"
+                    className="lucide lucide-chevron-down h-3 w-3 transition-transform group-data-[state=open]:rotate-180"
                   >
                     <path d="m6 9 6 6 6-6"></path>
                   </svg>
