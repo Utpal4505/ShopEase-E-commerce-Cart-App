@@ -26,7 +26,7 @@ function Header() {
     <>
       <header className="sticky top-0 z-50 bg-white dark:bg-[#11161d] text-black dark:text-white shadow-md">
         <nav className=" w-full border-b dark:bg-[#11161df2] backdrop-blur transition-all duration-100">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="container mx-auto px-[77px] sm:px-6 lg:px-8">
             <div className="flex h-16 items-center justify-between">
               {/* // --------------- Logo & Home Route --------------- */}
               <NavLink to="/" className="flex items-center space-x-2 group">
